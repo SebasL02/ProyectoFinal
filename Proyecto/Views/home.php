@@ -1,20 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<?php
 
-    <title>Bootstrap 4, from LayoutIt!</title>
+define('CONTROLLER_PATH', '../Controller/');
+define('VIEWS_PATH', '../Views/');
+define('MODELS_PATH', '../Models/');
+define('CSS_PATH', '../css/');
+define('JS_PATH', '../js/');
+define('IMG_PATH', '../img/');
 
-    <meta name="description" content="Source code generated using layoutit.com">
-    <meta name="author" content="LayoutIt!">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+include(VIEWS_PATH . "header.php");
+?>
 
-  </head>
-  <body>
+
 	<div class="topnav">
 		<a class="active" href="index.html">Inicio</a>
 		<a href="motivation.html">motivación</a>
@@ -73,8 +70,6 @@
 	</div>
 </div>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-  </body>
-</html>
+<?php
+include(VIEWS_PATH . "footer.php");
+?>
