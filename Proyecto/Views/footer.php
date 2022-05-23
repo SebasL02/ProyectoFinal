@@ -1,9 +1,16 @@
+<footer class="bg-dark ">
+    <div class="container px-4 px-lg-5 ">
+        <div class="small text-center text-muted ">BY:
+            <br> Gabriel Rodriguez & Joan Fajardo
+        
+        </div>
+    </div>
+</footer>
 
-    <script src="<?php echo JS_PATH."bootstrap.min.js"?>"></script>
-    <script src="<?php echo JS_PATH."https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"?>" ></script>
-    <script src="<?php echo JS_PATH."js/jquery.min.js"?>"></script>
-    <script src="<?php echo JS_PATH."js/bootstrap.js"?>"></script>
-    <script src="<?php echo JS_PATH."js/scripts.js"?>"></script>
+<script src="<?php echo JS_PATH . "jquery.min.js" ?>"></script>
+<script src="<?php echo JS_PATH . "bootstrap.min.js" ?>"></script>
+
+<script src="<?php echo JS_PATH . "bootstrap.js" ?>"></script>
 
 </body>
 

@@ -22,7 +22,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarColor03">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
                             <a class="nav-link active" href="#">Inicio
                                 <span class="visually-hidden">(current)</span>

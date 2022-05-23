@@ -11737,3 +11737,9 @@ a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus {
 .body-color-background{
   background-color: #1ADC0B;
 }
+
+.img-signup{
+  width: 50%;
+  float:right;
+  border-radius: 25px;;
+}
