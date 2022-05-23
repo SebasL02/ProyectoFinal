@@ -27,24 +27,24 @@ include(VIEWS_PATH . "header.php");
             <h3 class="text-primary">Crea una cuenta</h3>
           </div>
           <div class="p-4">
-            <form action="<?php echo CONTROLLER_PATH; ?>validar_registro.php" method="POST">
+            <form action="<?php echo CONTROLLER_PATH; ?>validar_registro_inicio_sesion.php" method="POST">
               <div class="input-group mb-3">
                 <span class="input-group-text bg-primary"><i class="bi bi-person-plus-fill text-white"></i></span>
-                <input type="text" class="form-control" placeholder="Usuario" name="Nombre">
+                <input type="text" class="form-control" placeholder="Usuario" name="Nombre" required minlength=4>
               </div>
               <div class="input-group mb-3">
                 <span class="input-group-text bg-primary"><i class="bi bi-envelope text-white"></i></span>
-                <input type="email" class="form-control" placeholder="Correo  electrónico" name="Correo">
+                <input type="email" class="form-control" placeholder="Correo  electrónico" name="Correo" required>
               </div>
               <div class="input-group mb-3">
                 <span class="input-group-text bg-primary"><i class="bi bi-key-fill text-white"></i></span>
-                <input type="password" class="form-control" placeholder="Contraseña" name="Clave">
+                <input type="password" class="form-control" placeholder="Contraseña" name="Clave" required  minlength=8>
               </div>
               <div class="d-grid col-12 mx-auto">
-                <button type="submit" class="btn btn-primary"> Registrarse</a>
+                <button type="submit" class="btn btn-primary" name="registro_usuario"> Registrarse</a>
               </div>
               <p class="text-center mt-3">¿Ya tienes una cuenta?
-                <a><span class="text-primary">Inicia Sesión</span></a>
+                <a href="login.php"><span class="text-primary">Inicia Sesión</span></a>
               </p>
             </form>
           </div>

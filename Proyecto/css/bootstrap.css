@@ -11741,5 +11741,13 @@ a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus {
 .img-signup{
   width: 50%;
   float:right;
-  border-radius: 25px;;
+  border-radius: 25px;
+}
+.img-login{
+  width: 50%;
+  display:block;
+
+  margin:auto;
+  border-radius: 25px;
+  transform: rotate(90deg);
 }
