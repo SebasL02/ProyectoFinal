@@ -12,13 +12,7 @@ include(VIEWS_PATH . "header.php");
 ?>
 
 
-	<div class="topnav">
-		<a class="active" href="index.html">Inicio</a>
-		<a href="motivation.html">motivación</a>
-		<a href="reserve.html">reserva</a>
-		<a href="account.html"><img src="img/user.png" alt="imagen para configurar la cuenta" style="height: 40px;margin-right: auto;"></a>
-	  </div>
-    <div class="container-fluid">
+
 	<div class="row">
 		<div class="col-md-12">
 			<div class="carousel slide" id="carousel-544974">
