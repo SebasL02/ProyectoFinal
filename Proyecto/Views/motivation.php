@@ -11,7 +11,7 @@ define('IMG_PATH', '../img/');
 include(VIEWS_PATH . "header.php");
 ?>
 
-<h1>¡REGISTRATE AHORA!</h1>
+<h1>¡Registrate!</h1>
 
 <div class="container-fluid">
   <div class="row">
