@@ -11,12 +11,12 @@ define('IMG_PATH', '../img/');
 include(VIEWS_PATH . "header.php");
 ?>
 
-<h1>¡Registrate!</h1>
+
 
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-6">
-      <img class="img-signup" alt="Imagen de chico pateando un balón" src="<?php echo IMG_PATH . "soccer-signup.jpg" ?>" />
+      <img class="img-signup" alt="Imagen de chico en la cancha de Futbol" src="<?php echo IMG_PATH . "Cancha.jpg" ?>" />
     </div>
     <div class="col-md-6">
 
@@ -24,29 +24,48 @@ include(VIEWS_PATH . "header.php");
       <div class="rounded d-flex justify-content-left">
         <div class="shadow-lg p-5 bg-light" style="border-radius: 25px;">
           <div class="text-center">
-            <h3 class="text-primary">Crea una cuenta</h3>
+            <h3 class="text-primary">Registrate</h3>
           </div>
           <div class="p-4">
-            <form action="<?php echo CONTROLLER_PATH; ?>validar_registro_inicio_sesion.php" method="POST">
-              <div class="input-group mb-3">
-                <span class="input-group-text bg-primary"><i class="bi bi-person-plus-fill text-white"></i></span>
-                <input type="text" class="form-control" placeholder="Usuario" name="Nombre" required minlength=4>
-              </div>
-              <div class="input-group mb-3">
-                <span class="input-group-text bg-primary"><i class="bi bi-envelope text-white"></i></span>
-                <input type="email" class="form-control" placeholder="Correo  electrónico" name="Correo" required>
-              </div>
-              <div class="input-group mb-3">
-                <span class="input-group-text bg-primary"><i class="bi bi-key-fill text-white"></i></span>
-                <input type="password" class="form-control" placeholder="Contraseña" name="Clave" required  minlength=8>
-              </div>
-              <div class="d-grid col-12 mx-auto">
-                <button type="submit" class="btn btn-primary" name="registro_usuario"> Registrarse</a>
-              </div>
-              <p class="text-center mt-3">¿Ya tienes una cuenta?
-                <a href="login.php"><span class="text-primary">Inicia Sesión</span></a>
-              </p>
-            </form>
+          <form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Nombre de quien Reserva</label>
+    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Pepito Perez">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Localidad</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Usaquen</option>
+      <option>Chapinero</option>
+      <option>Santa fe</option>
+      <option>Usme</option>
+      <option>Bosa</option>
+      <option>Kennedy</option>
+      <option>Fontibón</option>
+      <option>Engativá</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect2">Tipo de cancha</label>
+    <select multiple class="form-control" id="exampleFormControlSelect2">
+      <option>Futbol 5 sintética</option>
+      <option>Futbol 5 asfalto</option>
+      <option>Fútbol 8 sintética</option>
+      <option>Futbol 11 sintética</option>
+      
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect2">Tipo de Reserva</label>
+    <select multiple class="form-control" id="exampleFormControlSelect2">
+      <option>Amistoso</option>
+      <option>Torneo</option>
+      <option>Fútbol 8 sintética</option>
+      <option>Futbol 11 sintética</option>
+      
+    </select>
+  </div>
+</form>
           </div>
         </div>
       </div>
