@@ -13,11 +13,14 @@ include(VIEWS_PATH . "header.php");
 
 <br>
 
-<div> 
+<div > 
+<img width="400" height="500" class="img-signup" alt="Imagen una cancha de futbol" src="<?php echo IMG_PATH . "Fondo_Cancha.jpg" ?>" />
 <div class="rounded d-flex justify-content-left">
-        <div class="shadow-lg p-5 bg-light" style="border-radius: 25px;">
+
+        <div class="shadow-lg p-5 bg-light" style="border-radius: 10px;">
+        
           <div class="text-center">
-            <h3 class="text-primary">Registrate</h3>
+            <h3 class="text-primary">Reserva</h3>
           </div>
           <div class="p-4">
           <form>
