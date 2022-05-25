@@ -14,8 +14,9 @@ include(VIEWS_PATH . "header.php");
 <br>
 
 <div > 
-<img width="400" height="500" class="img-signup" alt="Imagen una cancha de futbol" src="<?php echo IMG_PATH . "Fondo_Cancha.jpg" ?>" />
-<div class="rounded d-flex justify-content-left">
+
+<div class="rounded d-flex justify-content-center">
+
 
         <div class="shadow-lg p-5 bg-light" style="border-radius: 10px;">
         
@@ -36,6 +37,7 @@ include(VIEWS_PATH . "header.php");
   <div class="form-group">
     <label for="exampleFormControlSelect1">Localidad</label>
     <select class="form-control" id="exampleFormControlSelect1">
+    <option>--seleccionar</option>
       <option>Usaquen</option>
       <option>Chapinero</option>
       <option>Santa fe</option>
@@ -49,6 +51,7 @@ include(VIEWS_PATH . "header.php");
   <div class="form-group">
     <label for="exampleFormControlSelect1">Tipo de cancha</label>
     <select class="form-control" id="exampleFormControlSelect1">
+    <option>--seleccionar</option>
       <option>Futbol 5 sintética</option>
       <option>Futbol 5 asfalto</option>
       <option>Fútbol 8 sintética</option>
@@ -58,6 +61,7 @@ include(VIEWS_PATH . "header.php");
   <div class="form-group">
     <label for="exampleFormControlSelect2">Tipo de Reserva</label>
     <select class="form-control" id="exampleFormControlSelect1">
+    <option>--seleccionar</option>
       <option>Amistoso</option>
       <option>Torneo</option>
      
@@ -65,6 +69,7 @@ include(VIEWS_PATH . "header.php");
     </select>
   </div>
   <div>
+      <br>
   <label for="start">Fecha</label>
 
 <input type="date" id="start" name="trip-start"
@@ -72,7 +77,7 @@ include(VIEWS_PATH . "header.php");
        min="2022-01-01" max="2023-01-01">
 
   </div>
-  <br>
+  <br>  
   <button type="button" class="btn btn-dark" >Reservar</button>
   
 </form>

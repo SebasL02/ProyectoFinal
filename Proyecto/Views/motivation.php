@@ -23,7 +23,7 @@ include(VIEWS_PATH . "header.php");
 					Te Damos Razones para que juegues Futbol
 				</h5>
 				<div class="card-body">
-					<p class="card-text">
+					<p class="card-text"  >
 						Jugar Futbol Es importante porque te ayuda a tu salud por el esfuerzo que debes de hacer, además no hay nada mejor que dejar todo por la pasión de la 
             camiseta, imagínate con tus amigos o familia eso también es chévere y una razón mas para compartir y no te cuesta nada. 
             <br>
@@ -34,7 +34,7 @@ include(VIEWS_PATH . "header.php");
 					</p>
 				</div>
 				<div class="card-footer">
-					<button7>Reserva</button>
+					<button>Reserva</button>
 				</div>
 			</div>
 		</div>
