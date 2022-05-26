@@ -16,7 +16,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Logo</a>
+                <a class="navbar-brand" href="<?php echo VIEWS_PATH; ?>home.php">Logo</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -24,29 +24,28 @@
                 <div class="collapse navbar-collapse" id="navbarColor03">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Inicio
+                            <a class="nav-link active" href="<?php echo VIEWS_PATH; ?>home.php">Inicio
                                 <span class="visually-hidden">(current)</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Motivación</a>
+                            <a class="nav-link" href="<?php echo VIEWS_PATH; ?>motivation.php">Motivación</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Reserva</a>
+                            <a class="nav-link" href="<?php echo VIEWS_PATH; ?>reserve.php">Reserva</a>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown-menu-end" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                            <div class="dropdown-menu" style="">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="javascript:void(0)" role="button" aria-haspopup="true" aria-expanded="false">Mi Cuenta</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>signup.php">Registrarse</a>
+                                <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>login.php">Iniciar Sesión</a>
+                                <a class="dropdown-item" href="<?php echo VIEWS_PATH; ?>edit_perfil.php">Editar perfil</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Separated link</a>
+                                <a class="dropdown-item" href="#">Cerrar Sesión</a>
                             </div>
                         </li>
 
- 
                     </ul>
 
                 </div>

@@ -55,6 +55,7 @@ if (isset($_POST['inicio_sesion_usuario'])) {
     }
   }
 }else{
+  
   echo "Usuario no encontrado";
 }
 }

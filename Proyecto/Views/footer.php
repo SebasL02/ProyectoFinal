@@ -2,15 +2,19 @@
     <div class="container px-4 px-lg-5 ">
         <div class="small text-center text-muted ">BY:
             <br> Gabriel Rodriguez & Joan Fajardo
-        
+
         </div>
     </div>
 </footer>
 
-<script src="<?php echo JS_PATH . "jquery.min.js" ?>"></script>
-<script src="<?php echo JS_PATH . "bootstrap.min.js" ?>"></script>
+
 
 <script src="<?php echo JS_PATH . "bootstrap.js" ?>"></script>
+
+
+
+
+
 
 </body>
 
