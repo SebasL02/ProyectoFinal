@@ -10,19 +10,26 @@ define('IMG_PATH', '../img/');
 
 include(VIEWS_PATH . "header.php");
 ?>
-<body>
-	
+<div class="container-fluid">
 
-<br >
-<div class="fondo">
-	<div class="container-fluid">
+<div class="row">
+  
+  <div class="col-md-6">
+
+<br>
+
+
+  <div class="rounded d-flex justify-content-center">
+	  <div class="shadow-lg p-5 bg-light" style="border-radius: 100px;">
+		
+	  <div class="container-fluid">
 	<div class="row">
 			<div class="col-md-12">
 				<div class="jumbotron">
 					<h2>
 					Hola Amante al deporte: 
 					</h2>
-					<p style=>
+					<p >
 					Jugar Futbol Es importante porque te ayuda a tu salud por el esfuerzo que debes de hacer, además no hay nada mejor que dejar todo por la pasión de la 
             		camiseta, imagínate con tus amigos o familia eso también es chévere y una razón mas para compartir y no te cuesta nada. 
             		<br>
@@ -34,10 +41,31 @@ include(VIEWS_PATH . "header.php");
 					</p>
 				
 					<a class="btn btn-primary btn-large" href="login.php">Ingresar</a>
-				
+					<div class="col-md-6">
+    
+	
+
+
+    </div>
 				</div>
 		</div>
+		
+		<div class="col-md-6">
+  
+  
+
+
+  </div>
+		</div>
+	  </div>
 	</div>
-	</div>
+	
+  </div>
 </div>
-</body>
+
+</div>
+	
+
+
+
+
