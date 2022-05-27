@@ -11,16 +11,16 @@ define('IMG_PATH', '../img/');
 include(VIEWS_PATH . "header.php");
 ?>
 
-<h1>¡REGISTRATE AHORA!</h1>
+<h1 class="text-center">¡REGISTRATE AHORA!</h1>
 
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-6">
-      <img class="img-signup" alt="Imagen de chico pateando un balón" src="<?php echo IMG_PATH . "soccer-signup.jpg" ?>" />
+      <img class="img-signup" alt="Imagen de chico pateando un balón" src="<?php echo IMG_PATH . "soccer-signup.jpg" ?>"  width="2000px" height="40%"/>
     </div>
     <div class="col-md-6">
 
-
+<br><br>
       <div class="rounded d-flex justify-content-left">
         <div class="shadow-lg p-5 bg-light" style="border-radius: 25px;">
           <div class="text-center">

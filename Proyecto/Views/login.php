@@ -11,15 +11,20 @@ define('IMG_PATH', '../img/');
 include(VIEWS_PATH . "header.php");
 ?>
 
-<h1>¡INICIA SESIÓN!</h1>
+
 
 <div class="container-fluid">
+
   <div class="row">
     <div class="col-md-6">
-      <img class="img-login" alt="Imagen de una cancha de futbol." src="<?php echo IMG_PATH . "soccer-login.jpg" ?>" />
+    
+      <img class="img-login" alt="Imagen de una cancha de futbol." src="<?php echo IMG_PATH . "Fondo_Cancha.jpg" ?>"   width="2000px" height="50%"/>
     </div>
     <div class="col-md-6">
 
+<br>
+<br>
+<br>
 
       <div class="rounded d-flex justify-content-left">
         <div class="shadow-lg p-5 bg-light" style="border-radius: 25px;">
