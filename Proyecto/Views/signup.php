@@ -11,17 +11,14 @@ define('IMG_PATH', '../img/');
 include(VIEWS_PATH . "header.php");
 ?>
 
-<h1 class="text-center">¡REGISTRATE AHORA!</h1>
 
 <div class="container-fluid">
-  <div class="row">
-    <div class="col-md-6">
-      <img class="img-signup" alt="Imagen de chico pateando un balón" src="<?php echo IMG_PATH . "soccer-signup.jpg" ?>"  width="2000px" height="40%"/>
-    </div>
-    <div class="col-md-6">
+  <div class="row img-background-signup">
 
-<br><br>
-      <div class="rounded d-flex justify-content-left">
+    <div class="col-md-12">
+
+      <br><br>
+      <div class="rounded d-flex justify-content-center">
         <div class="shadow-lg p-5 bg-light" style="border-radius: 25px;">
           <div class="text-center">
             <h3 class="text-primary">Crea una cuenta</h3>
@@ -38,7 +35,7 @@ include(VIEWS_PATH . "header.php");
               </div>
               <div class="input-group mb-3">
                 <span class="input-group-text bg-primary"><i class="bi bi-key-fill text-white"></i></span>
-                <input type="password" class="form-control" placeholder="Contraseña" name="Clave" required  minlength=8>
+                <input type="password" class="form-control" placeholder="Contraseña" name="Clave" required minlength=8>
               </div>
               <div class="d-grid col-12 mx-auto">
                 <button type="submit" class="btn btn-primary" name="registro_usuario"> Registrarse</a>
@@ -50,8 +47,11 @@ include(VIEWS_PATH . "header.php");
           </div>
         </div>
       </div>
-
+      <br>
+      <br>
     </div>
+
+
   </div>
 </div>
 
