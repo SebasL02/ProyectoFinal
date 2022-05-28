@@ -218,6 +218,8 @@ if (isset($_GET["info"])) {
 </div>
 
 
+
+
 <?php
 include(VIEWS_PATH . "footer.php");
 ?>

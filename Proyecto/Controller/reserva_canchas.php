@@ -39,7 +39,7 @@ if (isset($_POST["ingreso_reserva"])) {
         echo "wwwwwwwwwww".$row['partidos_publicados'];
 
 
-        include VIEWS_PATH."home.php";
+        
 
         
 
